@@ -1,0 +1,42 @@
+command_id: 710.718.22B921
+test_cases:
+- response: |-
+    718100962B921004942
+    7182100494200000001
+  expected_values:
+    MG_GWM_ODO: 18754
+- response: |-
+    718100962B921004A65
+    71821004A6400000001
+  expected_values:
+    MG_GWM_ODO: 19045
+- response: |-
+    718100962B921004A66
+    71821004A6400000001
+  expected_values:
+    MG_GWM_ODO: 19046
+- response: |-
+    718100962B921004A67
+    71821004A6400000001
+  expected_values:
+    MG_GWM_ODO: 19047
+- response: |-
+    718100962B921004B0A
+    71821004B0800000001
+  expected_values:
+    MG_GWM_ODO: 19210
+- response: |-
+    718100962B921004B0B
+    71821004B0800000001
+  expected_values:
+    MG_GWM_ODO: 19211
+- response: |-
+    718100962B921004B0C
+    71821004B0800000001
+  expected_values:
+    MG_GWM_ODO: 19212
+- response: |-
+    718100962B921004B58
+    71821004B0800000001
+  expected_values:
+    MG_GWM_ODO: 19288

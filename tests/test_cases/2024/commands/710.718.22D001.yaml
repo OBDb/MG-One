@@ -1,0 +1,8 @@
+command_id: 710.718.22D001
+test_cases:
+- response: 7180462D00144
+  expected_values:
+    MG_GWM_STATUS: 68
+- response: 7180462D00164
+  expected_values:
+    MG_GWM_STATUS: 100
