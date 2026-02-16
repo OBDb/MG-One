@@ -40,3 +40,8 @@ test_cases:
   response: |-
     718100962B92100BDAC
     7182100BDA800000001
+- expected_values:
+    MG_GWM_ODO: 48644
+  response: |-
+    718100962B92100BE04
+    7182100BE0400000001
