@@ -6,6 +6,11 @@ test_cases:
     718100962B921000000
     71821009DFD00000001
 - expected_values:
+    MG_GWM_ODO: 0
+  response: |-
+    718100962B921000000
+    7182100BE5600000001
+- expected_values:
     MG_GWM_ODO: 18754
   response: |-
     718100962B921004942
@@ -35,11 +40,6 @@ test_cases:
   response: |-
     718100962B92100A023
     7182100A02300000001
-- expected_values:
-    MG_GWM_ODO: 48556
-  response: |-
-    718100962B92100BDAC
-    7182100BDA800000001
 - expected_values:
     MG_GWM_ODO: 48644
   response: |-
