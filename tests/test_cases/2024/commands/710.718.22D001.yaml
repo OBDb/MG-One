@@ -4,6 +4,9 @@ test_cases:
     MG_GWM_STATUS: 0
   response: 7180462D00100
 - expected_values:
+    MG_GWM_STATUS: 32
+  response: 7180462D00120
+- expected_values:
     MG_GWM_STATUS: 68
   response: 7180462D00144
 - expected_values:
