@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     MG_GWM_STATUS: 100
   response: 7180462D00164
+- expected_values:
+    MG_GWM_STATUS: 136
+  response: 7180462D00188
