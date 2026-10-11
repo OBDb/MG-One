@@ -1,4 +1,51 @@
 { "commands": [
-
+{ "hdr": "710", "rax": "718", "cmd": {"22": "B921"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "ONE_GWM_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "710", "rax": "718", "cmd": {"22": "D001"}, "freq": 4, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "ONE_GWM_STATUS", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Vehicle gateway status"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B034"}, "freq": 1,
+  "signals": [
+    {"id": "ONE_EO_T", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "unit": "celsius" }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B036"}, "freq": 1,
+  "signals": [
+    {"id": "ONE_EOP", "path": "Engine", "fmt": { "len": 16, "max": 1500.7515, "mul": 229, "div": 10000, "unit": "kilopascal" }, "name": "Engine oil pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B043"}, "freq": 1,
+  "signals": [
+    {"id": "ONE_FUEL_TANK_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel tank level"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B140"}, "freq": 1,
+  "signals": [
+    {"id": "ONE_KNOCK_SNS_V", "path": "Battery", "fmt": { "len": 8, "max": 5, "mul": 5, "div": 255, "unit": "volts" }, "name": "Knock sensor voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B143"}, "freq": 1,
+  "signals": [
+    {"id": "ONE_MISFIRES_C1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B144"}, "freq": 1,
+  "signals": [
+    {"id": "ONE_MISFIRES_C2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B145"}, "freq": 1,
+  "signals": [
+    {"id": "ONE_MISFIRES_C3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B146"}, "freq": 1,
+  "signals": [
+    {"id": "ONE_MISFIRES_C4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1940"}, "freq": 1,
+  "signals": [
+    {"id": "ONE_ATF_T_ECU_10513229", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, ECU 10513229"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "B423"}, "freq": 1,
+  "signals": [
+    {"id": "ONE_ATF_T_ECU_10472701_11194479", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, ECU 10472701 and 11194479"}
+  ]}
 ]
 }

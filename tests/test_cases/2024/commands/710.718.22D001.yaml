@@ -1,20 +1,20 @@
 command_id: 710.718.22D001
 test_cases:
 - expected_values:
-    MG_GWM_STATUS: 0
+    ONE_GWM_STATUS: 0
   response: 7180462D00100
 - expected_values:
-    MG_GWM_STATUS: 17
+    ONE_GWM_STATUS: 17
   response: 7180462D00111
 - expected_values:
-    MG_GWM_STATUS: 32
+    ONE_GWM_STATUS: 32
   response: 7180462D00120
 - expected_values:
-    MG_GWM_STATUS: 68
+    ONE_GWM_STATUS: 68
   response: 7180462D00144
 - expected_values:
-    MG_GWM_STATUS: 100
+    ONE_GWM_STATUS: 100
   response: 7180462D00164
 - expected_values:
-    MG_GWM_STATUS: 136
+    ONE_GWM_STATUS: 136
   response: 7180462D00188
