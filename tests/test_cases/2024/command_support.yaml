@@ -74,6 +74,13 @@ supported_commands_by_ecu:
   - 0144:EQ_RAT
   - 0145:TP_R
   - 0146:AAT
+  - 0147:TP_B
+  - 0149:APP_D
+  - 014A:APP_E
+  - 014C:TAC_PCT
+  - 0156:LGSO2FT1
+  - 0167:ECT_1,ECT_1_SUP,ECT_2,ECT_2_SUP
+  - 01A6:ODO
   - 7E0.0104:LOAD_PCT
   - 7E0.0106:SHRTFT1
   - 7E0.0110:MAF
@@ -90,6 +97,7 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 0146:AAT
   - 0149:APP_D
+  - 01A4:GEAR_ACT,GEAR_ACT_SUP,GEAR_RAT,GEAR_RAT_SUP
 unsupported_commands_by_ecu:
   "724":
   - 724.72C.22B001
